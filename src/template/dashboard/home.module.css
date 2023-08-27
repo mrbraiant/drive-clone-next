@@ -1,0 +1,110 @@
+.content{
+    background-color: #F7F9FC;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11px;
+    height: 64px;
+    width: 100%;
+    background-color: #F7F9FC;
+}
+.navbar svg{
+    width: 24px;
+    height: 24px
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin: 4px 15px;
+    gap: 0.7rem;
+    width: '256px';
+}
+.logo h2{
+    font-weight: 400;
+    font-size: 22px;
+    color: #444746;
+    margin-top: 0.2rem;
+}
+.logo img{
+    width: 32px;
+    height: 32px;
+}
+.iconsBox{
+    margin-left: 5%;
+}
+.profile{
+    align-self: center;
+}
+.profile img{
+    border-radius: 25px;
+    width: 32px;
+    height: 32px;
+    height: inherit;
+}
+
+.sidebarContainer{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    padding: 8px 16px;
+    background-color: #F7F9FC;
+    width: 266px;
+}
+.sidebar label{
+    font-size: 14px;
+    cursor: pointer;
+}
+.hiddenInput{
+    display: none;
+}
+.menuBox{
+    padding: 1rem 0;
+}
+.menuIconSelected{
+    display: flex;
+    flex-direction: row; 
+    gap: 1rem; 
+    background-color: #C2E7FF; 
+    border-radius: 50px; 
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    align-items: center;
+}
+.menuIconNotSelected{
+    display: flex;
+    flex-direction: row; 
+    gap: 1rem; 
+    background-color: inherit; 
+    border-radius: 50px; 
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    align-items: center;
+}
+.menuIconNotSelected:hover{
+    background-color: #E3E3E3;
+}
+.driveContent{
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 1rem 1.5rem;
+    width: calc(100% - 266px);
+}
+.driveContentHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerIcons{
+    display: flex;
+    gap: 0.5rem;
+}
+.progress-box{
+    margin: 0.5rem 0px 0px 1rem;
+}
+.progress-box p{
+    margin-top: 0.5rem;
+}
